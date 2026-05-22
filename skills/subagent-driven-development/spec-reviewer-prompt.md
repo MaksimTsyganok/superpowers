@@ -7,6 +7,7 @@ Use this template when dispatching a spec compliance reviewer subagent.
 ```
 Task tool (general-purpose):
   description: "Review spec compliance for Task N"
+  model: haiku  # mechanical line-by-line comparison of code against spec — cheap model is sufficient. See SKILL.md "Model Selection".
   prompt: |
     You are reviewing whether an implementation matches its specification.
 

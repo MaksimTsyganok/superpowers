@@ -5,6 +5,7 @@ Use this template when dispatching an implementer subagent.
 ```
 Task tool (general-purpose):
   description: "Implement Task N: [task name]"
+  model: haiku  # default for mechanical 1-2 file tasks; use sonnet for multi-file integration, opus only when plan demands design judgment. See SKILL.md "Model Selection".
   prompt: |
     You are implementing Task N: [task name]
 
