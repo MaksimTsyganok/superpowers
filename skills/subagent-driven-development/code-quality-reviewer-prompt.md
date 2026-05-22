@@ -7,8 +7,7 @@ Use this template when dispatching a code quality reviewer subagent.
 **Only dispatch after spec compliance review passes.**
 
 ```
-Task tool (general-purpose):
-  model: sonnet  # code quality review requires judgment about clarity, idioms, maintainability — escalate to opus for the final whole-implementation review. See SKILL.md "Model Selection".
+Agent tool (general-purpose):
   Use template at requesting-code-review/code-reviewer.md
 
   DESCRIPTION: [task summary, from implementer's report]

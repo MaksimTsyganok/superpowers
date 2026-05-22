@@ -5,9 +5,9 @@ Use this template when dispatching a spec compliance reviewer subagent.
 **Purpose:** Verify implementer built what was requested (nothing more, nothing less)
 
 ```
-Task tool (general-purpose):
+Agent tool (general-purpose):
   description: "Review spec compliance for Task N"
-  model: haiku  # mechanical line-by-line comparison of code against spec — cheap model is sufficient. See SKILL.md "Model Selection".
+  model: [chosen model]
   prompt: |
     You are reviewing whether an implementation matches its specification.
 

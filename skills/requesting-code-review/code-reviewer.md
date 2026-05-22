@@ -5,8 +5,9 @@ Use this template when dispatching a code reviewer subagent.
 **Purpose:** Review completed work against requirements and code quality standards before it cascades into more work.
 
 ```
-Task tool (general-purpose):
+Agent tool (general-purpose):
   description: "Review code changes"
+  model: [chosen model]
   prompt: |
     You are a Senior Code Reviewer with expertise in software architecture,
     design patterns, and best practices. Your job is to review completed work
